@@ -1,0 +1,4 @@
+MONGODB_HOST: mongodb.kishore-p.space
+REDIS_HOST: redis.kishore-p.space
+
+# These are available only for specific role (user role in this case). But if we want to use these variables again in other roles, we can use group_vars.

@@ -1,0 +1,7 @@
+- name: include vs import role
+  ansible.builtin.debug:
+    msg: "Hello World "
+
+- name: include vs import role repeat
+  ansible.builtin.debug:
+    msg: "Hello World "
