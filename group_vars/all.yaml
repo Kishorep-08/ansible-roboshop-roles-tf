@@ -1,9 +1,9 @@
-MONGODB_HOST: mongodb.kishore-p.space
-REDIS_HOST: redis.kishore-p.space
-CATALOGUE_HOST: catalogue.kishore-p.space
-USER_HOST: user.kishore-p.space
-MYSQL_HOST: mysql.kishore-p.space
-CART_HOST: cart.kishore-p.space
-PAYMENT_HOST: payment.kishore-p.space
-RABBITMQ_HOST: rabbitmq.kishore-p.space
-SHIPPING_HOST: shipping.kishore-p.space
+MONGODB_HOST: mongodb-{{ env }}.kishore-p.space # mongodb-dev.kishore-p.space
+REDIS_HOST: redis-{{ env }}.kishore-p.space
+CATALOGUE_HOST: catalogue-{{ env }}.kishore-p.space
+USER_HOST: user-{{ env }}.kishore-p.space
+MYSQL_HOST: mysql-{{ env }}.kishore-p.space
+CART_HOST: cart-{{ env }}.kishore-p.space
+PAYMENT_HOST: payment-{{ env }}.kishore-p.space
+RABBITMQ_HOST: rabbitmq-{{ env }}.kishore-p.space
+SHIPPING_HOST: shipping-{{ env }}.kishore-p.space
