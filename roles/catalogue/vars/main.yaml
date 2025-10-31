@@ -1,1 +1,1 @@
-MONGODB_HOST: mongodb.kishore-p.space
+MONGODB_HOST: mongodb-{{ env }}.kishore-p.space
